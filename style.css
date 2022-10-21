@@ -33,12 +33,13 @@
     color: var(--AlmostBlack) !important;
 }
 
-
+html{
+    font-size: 18px;
+}
 body {
     font-family: 'Epilogue', sans-serif;
     max-width: 100%;
     font-weight: 500;
-    font-size: 18px;
     background-color: var(--AlmostWhite);
 }
 
@@ -53,9 +54,9 @@ body {
 }
 
 .head-font {
-    font-size: 100px;
+    font-size: 5rem;
     font-weight: 700;
-    line-height: 1em;
+    line-height: 5rem;
     margin-top: 12vh;
 }
 
@@ -96,19 +97,22 @@ main {
     justify-content: space-between;
     padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
 }
+#mobile{
+    display: none;
+}
 @media (max-width: 750px) {
     .nav-link{
-        font-size: 0.6em;
+        font-size: 1rem;
     }
     .btnre {
-        font-size: 0.6em;
+        font-size: 1rem ;
     }
     .p-get{
         padding-right: 0px;
     }
     .head-font {
-        font-size: 50px;
-        margin-top: 50px;
+        font-size: 3rem;
+        margin-top: 3rem;
     }
 }
 @media (max-width: 570px) {
@@ -121,11 +125,11 @@ main {
     }
 
     .head-font {
-        font-size: 50px;
-        margin-top: 50px;
+        font-size: 3rem;
+        margin-top: 3rem;
     }
 
-    #make {
+    #pc {
         display: none;
     }
 
@@ -136,10 +140,6 @@ main {
         margin-bottom: 20px;
     }
 
-    .head-font {
-        font-size: 36px;
-        font-weight: 700;
-    }
 
     .w80px {
         width: 80px;

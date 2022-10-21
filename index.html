@@ -1,145 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <title>Frontend Mentor | Intro section with dropdown navigation</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
+        <title>Frontend Mentor | Intro section with dropdown navigation</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
 
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
-</head>
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
 
-<body>
-    <header>
-        <!-- place navbar here -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="container mx-5 mt-3 mb-1">
-                <a class="navbar-brand" href="#"><img src="images/logo.svg" class="img-fluid rounded-top"
-                        alt="logo"></a>
-                
-                <div class="collapse  navbar-collapse " id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Features</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon" src="images/icon-todo.svg"
-                                        alt="todo">Todo List</a>
-                                <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon"
-                                        src="images/icon-calendar.svg" alt="calendar">Calendar</a>
-                                <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon"
-                                        src="images/icon-reminders.svg" alt="reminders">Reminder</a>
-                                <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon"
-                                        src="images/icon-planning.svg" alt="planning">Planning</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Company</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">History</a>
-                                <a class="dropdown-item" href="#">Our Team</a>
-                                <a class="dropdown-item" href="#">Blog</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Careers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                    </ul>
-                    <div class="navbar-nav mx-3 mt-2 mt-lg-0">
-                        <a class="nav-link mx-3 text-center" href="#">Login</a>
-                        <a name="Register" id="Register" class="btn btnre" href="#" role="button">Register</a>
-                    </div>
-                    
-                </div>
-            </div>
-        </nav>
+    <body>
+        <header>
+            <!-- place navbar here -->
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container mx-5 mt-3 mb-1">
+                    <a class="navbar-brand" href="#"><img src="images/logo.svg" class="img-fluid rounded-top"
+                            alt="logo"></a>
 
+                    <div class="collapse  navbar-collapse " id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Features</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon" src="images/icon-todo.svg"
+                                            alt="todo">Todo List</a>
+                                    <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon"
+                                            src="images/icon-calendar.svg" alt="calendar">Calendar</a>
+                                    <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon"
+                                            src="images/icon-reminders.svg" alt="reminders">Reminder</a>
+                                    <a class="dropdown-item" href="#"><img class="pe-3 mx-1 icon"
+                                            src="images/icon-planning.svg" alt="planning">Planning</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Company</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                                    <a class="dropdown-item" href="#">History</a>
+                                    <a class="dropdown-item" href="#">Our Team</a>
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                        </ul>
+                        <div class="navbar-nav mx-3 mt-2 mt-lg-0">
+                            <a class="nav-link mx-3 text-center" href="#">Login</a>
+                            <a id="Register" class="btn btnre" href="#" role="button">Register</a>
+                        </div>
 
-    </header>
-    <main>
-        <div class="container">
-            <div class="row" id="row">
-                <div class="col-xl-7 col-sm-12" id="content">
-                    <p class="head-font">Make <br id="make">remote work</p>
-                    <p class="p-get">Get your team in sync, no matter your location. Streamline processes,
-                        create team rituals, and watch productivity soar.
-                    </p>
-                    <button type="button" class="btn btn-dark fw700">Learn more</button>
-                    <div class="row">
-                        <div class="col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
-                        <div class="col-3"><img src="images/client-audiophile.svg" alt="audio"></div>
-                        <div class="col-3"><img src="images/client-meet.svg" alt="meet"></div>
-                        <div class="col-3"><img src="images/client-maker.svg" alt="maker"></div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-sm-12" id="img">
-                    <img class="w-100" src="images/image-hero-desktop.png" alt="">
-                </div>
-            </div>
-        </div>
+            </nav>
 
-        <!-- <div class="container">
-            <div class="row" id="row">
-                <div class="col-12">
-                    <img class="w-100" src="images/image-hero-mobile.png" alt="img">
-                </div>
-                <div class="col-12 text-center mx-3">
-                    <p class="head-font">Make <br id="make">remote work</p>
-                    <p class="p-get">Get your team in sync, no matter your location. Streamline processes,
-                        create team rituals, and watch productivity soar.
-                    </p>
-                    <button type="button" class="btn btn-dark fw700">Learn more</button>
-                    <div class="icon-end">
-                        <div class="row mb-5">
-                            <div class="col-3"><img class="w80px" src="images/client-databiz.svg" alt="databiz"></div>
-                            <div class="col-3"><img class="w80px" src="images/client-audiophile.svg" alt="audio"></div>
-                            <div class="col-3"><img class="w80px" src="images/client-meet.svg" alt="meet"></div>
-                            <div class="col-3"><img class="w80px" src="images/client-maker.svg" alt="maker"></div>
+
+        </header>
+        <main>
+            <div class="container">
+                <div class="row" id="row">
+                    <div class="col-xl-7 col-sm-12" id="content">
+                        <p class="head-font">Make <br id="pc">remote work</p>
+                        <p class="p-get">Get your team in sync, no matter your<br id="mobile"> location.<br id="pc">
+                            Streamline processes, create<br id="mobile"> team rituals, and<br id="pc">
+                            watch productivity soar.
+                        </p>
+                        <button type="button" class="btn btn-dark fw700">Learn more</button>
+                        <div class="row">
+                            <div class="col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
+                            <div class="col-3"><img src="images/client-audiophile.svg" alt="audio"></div>
+                            <div class="col-3"><img src="images/client-meet.svg" alt="meet"></div>
+                            <div class="col-3"><img src="images/client-maker.svg" alt="maker"></div>
                         </div>
                     </div>
+                    <div class="col-xl-5 col-sm-12" id="img">
+                        <img class="w-100" src="images/image-hero-desktop.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container">
+                <div class="row" id="row">
+                    <div class="col-12">
+                        <img class="w-100" src="images/image-hero-mobile.png" alt="img">
+                    </div>
+                    <div class="col-12 text-center mx-3">
+                        <p class="head-font">Make <br id="make">remote work</p>
+                        <p class="p-get">Get your team in sync, no matter your location. Streamline processes,
+                            create team rituals, and watch productivity soar.
+                        </p>
+                        <button type="button" class="btn btn-dark fw700">Learn more</button>
+                        <div class="icon-end">
+                            <div class="row mb-5">
+                                <div class="col-3"><img class="w80px" src="images/client-databiz.svg" alt="databiz"></div>
+                                <div class="col-3"><img class="w80px" src="images/client-audiophile.svg" alt="audio"></div>
+                                <div class="col-3"><img class="w80px" src="images/client-meet.svg" alt="meet"></div>
+                                <div class="col-3"><img class="w80px" src="images/client-maker.svg" alt="maker"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
                     
                 </div>
-                
-            </div>
-        </div> -->
+            </div> -->
 
 
-    </main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+            </script>
 
 
 
-</body>
+    </body>
 
 </html>
