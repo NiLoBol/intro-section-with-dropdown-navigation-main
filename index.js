@@ -126,7 +126,7 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                     <div class="col-12">
                         <img class="w-100" src="images/image-hero-mobile.png" alt="img">
                     </div>
-                    <div class="col-12 text-center mx-3">
+                    <div class="col-12 text-center ">
                         <h1 class="head-font">Make remote work</h1>
                         <p class="p-get">Get your team in sync, no matter your location.
                             Streamline processes, create team rituals, and
@@ -135,10 +135,10 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                         <button type="button" class="btn btn-dark fw700">Learn more</button>
                         <div class="icon-end">
                             <div class="row mb-5">
-                                <div class="col-3"><img class="w80px" src="images/client-databiz.svg" alt="databiz"></div>
-                                <div class="col-3"><img class="w80px" src="images/client-audiophile.svg" alt="audio"></div>
-                                <div class="col-3"><img class="w80px" src="images/client-meet.svg" alt="meet"></div>
-                                <div class="col-3"><img class="w80px" src="images/client-maker.svg" alt="maker"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-databiz.svg" alt="databiz"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-audiophile.svg" alt="audio"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-meet.svg" alt="meet"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-maker.svg" alt="maker"></div>
                             </div>
                         </div>
                         
@@ -148,7 +148,7 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     else{
         content.innerHTML =
             `
-                <div class="col-xl-7 col-lg-7 col-xs-12" id="content">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-xs-12" id="content">
                     <h1 class="head-font">Make remote work</h1>
                     <p class="p-get">Get your team in sync, no matter your location.
                         Streamline processes, create team rituals, and
@@ -156,13 +156,13 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                     </p>
                     <button type="button" class="btn btn-dark fw700">Learn more</button>
                     <div class="row">
-                        <div class="col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
-                        <div class="col-3"><img src="images/client-audiophile.svg" alt="audio"></div>
-                        <div class="col-3"><img src="images/client-meet.svg" alt="meet"></div>
-                        <div class="col-3"><img src="images/client-maker.svg" alt="maker"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-audiophile.svg" alt="audio"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-meet.svg" alt="meet"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-maker.svg" alt="maker"></div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-xs-12" id="img">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-xs-12" id="img">
                     <img class="w-100" src="images/image-hero-desktop.png" alt="">
                 </div>
             `;
@@ -292,7 +292,7 @@ addEventListener('resize', (event) => {
                     <div class="col-12">
                         <img class="w-100" src="images/image-hero-mobile.png" alt="img">
                     </div>
-                    <div class="col-12 text-center mx-3">
+                    <div class="col-12 text-center ">
                         <h1 class="head-font">Make remote work</h1>
                         <p class="p-get">Get your team in sync, no matter your location.
                             Streamline processes, create team rituals, and
@@ -301,10 +301,10 @@ addEventListener('resize', (event) => {
                         <button type="button" class="btn btn-dark fw700">Learn more</button>
                         <div class="icon-end">
                             <div class="row mb-5">
-                                <div class="col-3"><img class="w80px" src="images/client-databiz.svg" alt="databiz"></div>
-                                <div class="col-3"><img class="w80px" src="images/client-audiophile.svg" alt="audio"></div>
-                                <div class="col-3"><img class="w80px" src="images/client-meet.svg" alt="meet"></div>
-                                <div class="col-3"><img class="w80px" src="images/client-maker.svg" alt="maker"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-databiz.svg" alt="databiz"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-audiophile.svg" alt="audio"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-meet.svg" alt="meet"></div>
+                                <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img class="w80px" src="images/client-maker.svg" alt="maker"></div>
                             </div>
                         </div>
                         
@@ -314,7 +314,7 @@ addEventListener('resize', (event) => {
     else{
         content.innerHTML =
             `
-                <div class="col-xl-7 col-lg-7 col-xs-12" id="content">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-xs-12" id="content">
                     <h1 class="head-font">Make remote work</h1>
                     <p class="p-get">Get your team in sync, no matter your location.
                         Streamline processes, create team rituals, and
@@ -322,13 +322,13 @@ addEventListener('resize', (event) => {
                     </p>
                     <button type="button" class="btn btn-dark fw700">Learn more</button>
                     <div class="row">
-                        <div class="col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
-                        <div class="col-3"><img src="images/client-audiophile.svg" alt="audio"></div>
-                        <div class="col-3"><img src="images/client-meet.svg" alt="meet"></div>
-                        <div class="col-3"><img src="images/client-maker.svg" alt="maker"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-audiophile.svg" alt="audio"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-meet.svg" alt="meet"></div>
+                        <div class="col-xl-3  col-lg-6 col-md-3 pb-3 col-3"><img src="images/client-maker.svg" alt="maker"></div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-xs-12" id="img">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-xs-12" id="img">
                     <img class="w-100" src="images/image-hero-desktop.png" alt="">
                 </div>
             `;
