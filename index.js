@@ -39,9 +39,9 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-bs-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">Company</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId2">
                                         <a class="dropdown-item" href="#">History</a>
                                         <a class="dropdown-item" href="#">Our Team</a>
                                         <a class="dropdown-item" href="#">Blog</a>
@@ -88,9 +88,9 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Company</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <div class="dropdown-menu" aria-labelledby="dropdownId2">
                                 <a class="dropdown-item" href="#">History</a>
                                 <a class="dropdown-item" href="#">Our Team</a>
                                 <a class="dropdown-item" href="#">Blog</a>
@@ -120,16 +120,16 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
         
     }
 
-    if(width<=700){
+    if(width<=800){
         content.innerHTML =
             `
                     <div class="col-12">
                         <img class="w-100" src="images/image-hero-mobile.png" alt="img">
                     </div>
                     <div class="col-12 text-center mx-3">
-                        <p class="head-font">Make <br id="pc">remote work</p>
-                        <p class="p-get">Get your team in sync, no matter your<br id="mobile"> location.<br id="pc">
-                            Streamline processes, create<br id="mobile"> team rituals, and<br id="pc">
+                        <h1 class="head-font">Make remote work</h1>
+                        <p class="p-get">Get your team in sync, no matter your location.
+                            Streamline processes, create team rituals, and
                             watch productivity soar.
                         </p>
                         <button type="button" class="btn btn-dark fw700">Learn more</button>
@@ -148,12 +148,12 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     else{
         content.innerHTML =
             `
-                <div class="col-xl-7 col-xs-12" id="content">
-                    <p class="head-font">Make <br id="pc">remote work</p>
-                    <p class="p-get">Get your team in sync, no matter your<br id="mobile"> location.<br id="pc">
-                            Streamline processes, create<br id="mobile"> team rituals, and<br id="pc">
-                            watch productivity soar.
-                        </p>
+                <div class="col-xl-7 col-lg-7 col-xs-12" id="content">
+                    <h1 class="head-font">Make remote work</h1>
+                    <p class="p-get">Get your team in sync, no matter your location.
+                        Streamline processes, create team rituals, and
+                        watch productivity soar.
+                    </p>
                     <button type="button" class="btn btn-dark fw700">Learn more</button>
                     <div class="row">
                         <div class="col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
@@ -162,7 +162,7 @@ let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                         <div class="col-3"><img src="images/client-maker.svg" alt="maker"></div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xs-12" id="img">
+                <div class="col-xl-5 col-lg-5 col-xs-12" id="img">
                     <img class="w-100" src="images/image-hero-desktop.png" alt="">
                 </div>
             `;
@@ -205,9 +205,9 @@ addEventListener('resize', (event) => {
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-bs-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">Company</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId2">
                                         <a class="dropdown-item" href="#">History</a>
                                         <a class="dropdown-item" href="#">Our Team</a>
                                         <a class="dropdown-item" href="#">Blog</a>
@@ -254,9 +254,9 @@ addEventListener('resize', (event) => {
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Company</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <div class="dropdown-menu" aria-labelledby="dropdownId2">
                                 <a class="dropdown-item" href="#">History</a>
                                 <a class="dropdown-item" href="#">Our Team</a>
                                 <a class="dropdown-item" href="#">Blog</a>
@@ -286,16 +286,16 @@ addEventListener('resize', (event) => {
         
     }
 
-    if(width<=700){
+    if(width<=800){
         content.innerHTML =
             `
                     <div class="col-12">
                         <img class="w-100" src="images/image-hero-mobile.png" alt="img">
                     </div>
                     <div class="col-12 text-center mx-3">
-                        <p class="head-font">Make <br id="pc">remote work</p>
-                        <p class="p-get">Get your team in sync, no matter your<br id="mobile"> location.<br id="pc">
-                            Streamline processes, create<br id="mobile"> team rituals, and<br id="pc">
+                        <h1 class="head-font">Make remote work</h1>
+                        <p class="p-get">Get your team in sync, no matter your location.
+                            Streamline processes, create team rituals, and
                             watch productivity soar.
                         </p>
                         <button type="button" class="btn btn-dark fw700">Learn more</button>
@@ -314,12 +314,12 @@ addEventListener('resize', (event) => {
     else{
         content.innerHTML =
             `
-                <div class="col-xl-7 col-xs-12" id="content">
-                    <p class="head-font">Make <br id="pc">remote work</p>
-                    <p class="p-get">Get your team in sync, no matter your<br id="mobile"> location.<br id="pc">
-                            Streamline processes, create<br id="mobile"> team rituals, and<br id="pc">
-                            watch productivity soar.
-                        </p>
+                <div class="col-xl-7 col-lg-7 col-xs-12" id="content">
+                    <h1 class="head-font">Make remote work</h1>
+                    <p class="p-get">Get your team in sync, no matter your location.
+                        Streamline processes, create team rituals, and
+                        watch productivity soar.
+                    </p>
                     <button type="button" class="btn btn-dark fw700">Learn more</button>
                     <div class="row">
                         <div class="col-3"><img src="images/client-databiz.svg" alt="databiz"></div>
@@ -328,7 +328,7 @@ addEventListener('resize', (event) => {
                         <div class="col-3"><img src="images/client-maker.svg" alt="maker"></div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xs-12" id="img">
+                <div class="col-xl-5 col-lg-5 col-xs-12" id="img">
                     <img class="w-100" src="images/image-hero-desktop.png" alt="">
                 </div>
             `;

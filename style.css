@@ -97,8 +97,23 @@ main {
     justify-content: space-between;
     padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
 }
-#mobile{
+.mobile{
     display: none;
+}
+.pc{
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    .p-get {
+        padding-right: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .head-font{
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
 }
 @media (max-width: 750px) {
     .nav-link{
@@ -114,6 +129,12 @@ main {
         font-size: 3rem;
         margin-top: 3rem;
     }
+    .mobile{
+        display: none;
+    }
+    .pc{
+        display: block;
+    }
 }
 @media (max-width: 570px) {
     body {
@@ -125,14 +146,16 @@ main {
     }
 
     .head-font {
-        font-size: 3rem;
-        margin-top: 3rem;
+        font-size: 2rem;
+        margin-top: 2rem;
     }
 
-    #pc {
+    .pc {
         display: none;
     }
-
+    .mobile{
+        display: block;
+    }
     .p-get {
         padding-right: 20px;
         padding-left: 20px;
